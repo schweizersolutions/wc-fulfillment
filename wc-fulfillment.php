@@ -95,6 +95,8 @@
              */
             public function registerAdmin() {
                 $this->plugin_manager->register( new WCFF_Admin_Init );
+                $this->plugin_manager->register( new WCFF_Admin_Product );
+                
             }
         }
 
